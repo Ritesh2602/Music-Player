@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Oswald:wght@300&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* @media {
+    body{
+        background-color: bisque;
+    }
+    
+} */
+
+body {
+  background-color: aqua;
+  height: 90vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+  list-style-type: none; /*to remove listing types*/
+  display: flex; /*to display elements horizontally*/
+  align-items: center;
+  background-color: black;
+  color: azure;
+  height: 70px;
+  width: 100%;
+  top: 0;
+}
+
+nav ul li {
+  padding: 0px 10px;
+  font-size: large;
+}
+
+nav ul .logo img {
+  height: 65px;
+}
+
+.container {
+  min-height: 70vh;
+}
+
+.play {
+  background-color: black;
+  position: sticky;
+  display: flex; 
+  justify-content: center;  /* it works in horizontal direction */
+  align-items: center;   /* it works in vertical direction */
+  height: 69px;
+  bottom: 0;
+  width: 100%;
+  flex-direction: column;
+}
+
+#progressbar {
+  width: 190vh;
+}
+
+.icons{
+  color: white;
+  margin-top: 13px ;
+  
+}
+
+.icons i{
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.container{
+  color: black;
+  margin: 20px auto;
+  width: 70%;
+  height: 75vh;
+  border-radius: 9px;
+  background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+}
+
+.songlist{
+  background-color: wheat;
+  width: 50vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 25px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.songlist img{
+  width: 24px;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+.timestamp{
+  margin-right: 5px;
+}
+
+.songlist i{
+  
+  cursor: pointer;
+}
